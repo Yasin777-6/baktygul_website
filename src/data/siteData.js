@@ -1,6 +1,4 @@
-const asset = (path) => new URL(path, import.meta.url).href;
-
-export const siteMeta = {
+﻿export const siteMeta = {
   siteUrl: "https://www.baktygul.com",
   name: "Baktygul Chynybaeva",
   role: "Award-winning journalist from Central Asia",
@@ -90,26 +88,26 @@ export const navigation = [
 ];
 
 export const photography = {
-  hero: asset("../../baktygul_files/homepic-mP424y783OIRD50v.jpg"),
-  cover: asset("../../baktygul_files/homepagen-mjEqDE7plVu3wnnP.jpg"),
+  hero: "/images/baktygul/hero.jpg",
+  cover: "/images/baktygul/cover.jpg",
   craftedCarpet:
     "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=768,h=488,fit=crop/YanqnEEqw0U672Om/ayilsurot-dOq80qe210upz0p2.JPG",
   newsroom:
     "https://assets.zyrosite.com/cdn-cgi/image/format=auto,w=1024,h=650,fit=crop/YanqnEEqw0U672Om/azattyk-mv02X0rOLyIV1LVv.JPG",
   gallery: [
-    asset("../../baktygul_files/img_0515-qdhBgFS56CI03u2L.jpeg"),
-    asset("../../baktygul_files/img_0931-aW3r8omxuU4ZU6dS.jpeg"),
-    asset("../../baktygul_files/img_7047-ta0IWF6BPTOImB8D.jpeg"),
-    asset("../../baktygul_files/img_7367-YkfhtaH2SxAp0CjD.jpeg"),
-    asset("../../baktygul_files/img_7368-4C6QPoXyIkpuyTT6.jpeg"),
-    asset("../../baktygul_files/410c5038-ce29-4711-ae75-83d821da135c-U4PaCwScns5lo6Ec.jpeg"),
-    asset("../../baktygul_files/7c07d6c7-148d-4dde-a79c-20f556097235-ubovlB8DHYdd6P7x.jpeg"),
-    asset("../../baktygul_files/edc65e31-5004-4dfe-a001-403f00baa1ab-VhJ1vX2wfutKC84t.jpeg")
+    "/images/baktygul/gallery-1.jpeg",
+    "/images/baktygul/gallery-2.jpeg",
+    "/images/baktygul/gallery-3.jpeg",
+    "/images/baktygul/gallery-4.jpeg",
+    "/images/baktygul/gallery-5.jpeg",
+    "/images/baktygul/gallery-6.jpeg",
+    "/images/baktygul/gallery-7.jpeg",
+    "/images/baktygul/gallery-8.jpeg"
   ],
-  books: asset("../../Published Books _ Personal Blog_files/books-mv02X0grNjIa2BMy.JPG"),
-  climate: asset("../../Climate Reporting _ Personal Blog_files/clim-dWxBVValyQu88jG9.jpg"),
-  awards: asset("../../Awards and Fellowships _ Personal Blog_files/award-AGBnjjpO1pt6B4MQ.JPG"),
-  contact: asset("../../Contact _ Personal Blog_files/generated-AE0axxqOvVTy5ZgQ.png")
+  books: "/images/books/books.JPG",
+  climate: "/images/climate/climate.jpg",
+  awards: "/images/awards/award.JPG",
+  contact: "/images/contact/contact.png"
 };
 
 export const homeSections = {
@@ -630,3 +628,4 @@ export const pageContent = {
     ]
   }
 };
+
